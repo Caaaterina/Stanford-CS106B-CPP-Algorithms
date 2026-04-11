@@ -1,9 +1,9 @@
-# 🌲 Stanford CS106B: Programming Abstractions (C++)
+# 🌲 Stanford CS106B(22winter): Programming Abstractions (C++)
 
 ## 📌 Current Status
 **🚧 WORK IN PROGRESS (Actively Updating...)** 
 Currently, I am working on this course and regularly pushing my completed assignments. 
-*Current Progress: Assignment 3 (Recursion & Backtracking)*
+*Current Progress: Assignment 4*
 
 ## 🎯 About This Repository
 As an Applied Math major, I am taking this course to build a hardcore foundation in **C++ algorithms and memory management**. This repo serves as my personal code diary. 
