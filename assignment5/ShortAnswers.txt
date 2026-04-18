@@ -1,0 +1,49 @@
+Q1:
+
+Yes. Even if the contract’s explicit optimization criteria focused on efficiency
+and fraud reduction, engineers still have a professional responsibility to
+account for foreseeable harm—especially wrongful denials that can directly
+threaten people’s health, housing, and food security. “Efficiency” is not
+value-neutral: if the system becomes cheaper by increasing false negatives
+(denying eligible applicants), that is a serious safety and ethics failure, not
+a success.
+
+So the objective function should include constraints and metrics for human
+impact (e.g., minimize wrongful denials, ensure due-process safeguards, and keep
+appeal/recertification pathways accessible), even if that reduces pure
+throughput. At minimum, the design should enforce hard constraints (upper
+bounds) on error rates and require human review for high-risk decisions, rather
+than optimizing only for cost and fraud.
+
+
+
+
+Q2:
+
+I would start by redefining the goals with all stakeholders (case workers,
+applicants, advocates, and the state) and writing them as measurable
+requirements: reduce processing time and fraud *while* maintaining access,
+minimizing wrongful denials, preserving due process, and keeping
+communication/document handling reliable. I’d treat this as a high-stakes,
+human-impact system, so “do no harm” constraints come first.
+
+Algorithmically, I’d use analysis tools to meet performance goals without
+sacrificing accuracy or fairness: profile bottlenecks (I/O, queueing, document
+intake), choose data structures that reduce wait time, and design workflows
+that are robust to missing/late documents. For eligibility and fraud detection,
+I’d use conservative decision thresholds, calibrate models on representative
+data, and optimize for low false-negative rates (wrongful denial) with explicit
+cost weights. High-risk or uncertain cases would be routed to human review,
+with clear explanations and audit logs.
+
+To avoid the harms described, I’d build safeguards into the process: confirmed
+receipt tracking for documents, redundant channels (online/mail/in-person),
+accessible callbacks, transparent status updates, and an appeals process that is
+easy to use. Finally, I’d continuously monitor outcomes (denial rates, error
+rates, demographics, wait times) and run regular audits, updating the system
+when metrics indicate real-world harm.
+
+
+
+
+
