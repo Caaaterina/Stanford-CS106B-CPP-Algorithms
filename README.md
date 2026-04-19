@@ -3,7 +3,7 @@
 ## 📌 Current Status
 **🚧 WORK IN PROGRESS (Actively Updating...)** 
 Currently, I am working on this course and regularly pushing my completed assignments. 
-*Current Progress: Assignment 4*
+*Current Progress: Assignment 5*
 
 ## 🎯 About This Repository
 As an Applied Math major, I am taking this course to build a hardcore foundation in **C++ algorithms and memory management**. This repo serves as my personal code diary. 
